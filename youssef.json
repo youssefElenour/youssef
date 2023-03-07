@@ -1,0 +1,128 @@
+{
+    "title": "YOUSSEF",
+    "description": "pesonal website ",
+    "keywords": ["personal","developer", "web developer","fullstack","fronend","backend", "youssef.com"],
+    "pages": ["home","about","projects","contact"],
+    "hosts": {
+        "youssef": {
+            "domain": "youssef.com",
+            "pages": {
+                "home": {
+                    "route": "/",
+                    "title": null
+                },
+                "about": {
+                    "route": "/about",
+                    "title": "about"
+                },
+                "projects": {
+                    "route": "/projects",
+                    "title": "projects"
+                },
+                "contact": {
+                    "route": "/contact",
+                    "title": "contact"
+                }
+            }
+        },
+        "dashpord": {
+            "domain": "dashpord.youssef.com",
+            "pages": {
+                "home": {
+                    "route": "/",
+                    "title": null
+                },
+                "about": {
+                    "route": "/about",
+                    "title": "about"
+                },
+                "projects": {
+                    "route": "/projects",
+                    "title": "projects"
+                },
+                "contact": {
+                    "route": "/contact",
+                    "title": "contact"
+                }
+            }
+        },
+        "help": {
+            "domain":"help.youssef.com",
+            "pages": {
+                "home": {
+                    "host": "/",
+                    "title": null
+                }
+            }
+        },
+        "settings": {
+            "domain": "settings.youssef.com",
+            "pages": {
+                "home": {
+                    "host": "/",
+                    "title": null
+                }
+            }
+        }
+    },
+    "style": {
+        "mode": {
+            "options": ["light","dark"],
+            "default": "light"
+        },
+        "theme": {
+            "options": ["normal","ramadan"],
+            "default": "normal"
+        },
+        "colors": {
+            "hue": 200,
+            "mainColor": "hsl(var(--hue),100%,50%)",
+            "socundMainColor": "hsl(0, 0%, 60%)",
+            "textColorLight": "hsl(var(--hue),4%,55%",
+            "whiteColor": "hsl(var(--hue),100%,100%)",
+            "lightColor": "hsl(var(--hue),100%,100%)",
+            "darkColor": "hsl(var(--hue),100%,0%)"
+        },
+        "font": {
+            "family": {
+                "options": ["Poppins", "Bebas Neue"],
+                "default": "Poppins, sans-serif",
+                "logo": "Bebas Neue, sans-serif"
+            },
+            "size": "16px",
+            "weight": 400
+        }
+    },
+    "languages": {
+        "options":["arabic","english"],
+        "default": "english"
+    },
+    "user": {
+        "name": {
+            "fullName":"youssef abdelghany",
+            "title": "youssef nour",
+            "firstName": "youssef",
+            "socundName": "abdelghany",
+            "thirdName": "mohamed",
+            "fourthName": "said"
+        },
+        "age": 14,
+        "sex": "mail",
+        "country": "egypt",
+        "languages": {
+            "speak": ["arabic","english"],
+            "default":"arabic"
+        },
+        "social": {
+            "email":"youssefAbdelghany@gmail.com",
+            "number": "01124284940",
+            "socialMedia": {
+                "facebook": "https://www.facebook.com/profile.php?id=100070865524068",
+                "instagram": "http://www.instagram.com",
+                "twitter": "http://www.twitter.com",
+                "github": "http://www.github.com/youssefElnour",
+                "linkedin": "https://www.linkedin.com/in/youssef-nour-68ba13267/"
+            }
+        }
+    }
+}
